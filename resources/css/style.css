@@ -1,4 +1,6 @@
-.logo {
+/* Header */
+
+header {
 	display: flex;
 	align-items: center;
 	position: fixed;
@@ -12,9 +14,176 @@
 	font-weight: bold;
 }
 
-nav span {
-	dispaly: inline-block;
-	padding: 20px 10px;
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+h2 {
+  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	padding-left: 30px;
+}
+
+.logo img {
+	width: 70px;
+	height: 60px;
+	margin-right: 12px;
+}
+
+.logo span {
+	color: MediumAquamarine;
+}
+
+header nav {
+	padding-right: 40px;
+	display: flex;
+}
+
+a {
 	color: black;
 }
 
+nav span {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+/* Main Content Container */
+
+.content {
+	display: flex;
+	width: 1232px;
+	margin: 0 auto 78px auto;
+	padding-top: 116px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	margin-right: 32px;
+}
+
+div {
+	/* border: 1px solid black; */
+}
+
+/* Column widths */
+
+.column.large {
+	width: 630px;
+}
+
+.column.medium {
+	width: 300px;
+}
+
+.column.small {
+	width: 240px;
+}
+
+.lead-story .image-content {
+	background-image: url("../images/img-story-main.png");
+	font-size: 40px;
+	align-items: center;
+}
+
+.image-content {
+	height: 300px;
+	margin-top: 15px;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+.pop-culture.image-content {
+	background-image: url("../images/img-story-3.png");
+	align-items: center;
+}
+
+.fall-cancelled {
+	background-image: url("../images/img-story-2.png");
+	display: flex;
+	text-align: center;
+}
+
+.cat-ceo.image-content {
+	background-image: url("../images/img-story-1.png");
+}
+
+.stories .text-content {
+	height: 250px;
+}
+
+.narrative {
+	margin-top;
+}
+
+.story {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+.stories {
+	display: flex;
+	justify-content: space-between;
+}
+
+.news-bites h3 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.news-bites .bite {
+	padding: 11px 20px;
+	border-bottom: 1px solid black;
+	background-color: WhiteSmoke;
+	font-family: Verdana;
+	font-size: 12px;
+	color: DimGray;
+	display: flex;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 325px;
+	background-color: MediumAquamarine;
+	margin: auto;
+	font-family: Verdana;
+	Font-size: 12px;
+	position: absolute;
+}
+
+footer .title {
+  display: inline-block;
+  border-right: 2px solid white;
+  padding-right: 25px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
